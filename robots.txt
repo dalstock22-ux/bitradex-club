@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# 구글 크롤러
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# 네이버 크롤러 (Yeti)
+User-agent: Yeti
+Allow: /
+Crawl-delay: 1
+
+# 네이버 AI (HyperCLOVA)
+User-agent: NaverBot
+Allow: /
+
+# 빙 크롤러
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# 사이트맵 위치
+Sitemap: https://bitradex.co.kr/sitemap.xml
